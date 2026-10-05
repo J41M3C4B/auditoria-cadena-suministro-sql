@@ -1,9 +1,9 @@
-# 📊 Auditoría Integral de Cadena de Suministro: Riesgo, Logística y Competitividad
+# Auditoría Integral de Cadena de Suministro: Riesgo, Logística y Competitividad
 
 **Rol:** Data Analyst / Business Intelligence  
 **Stack Tecnológico:** PostgreSQL, Docker, Looker Studio, Modelado Relacional.
 
-## 🧭 Propósito del proyecto
+## Propósito del proyecto
 Proyecto de práctica enfocado en **SQL puro sobre PostgreSQL**: llevar un archivo plano (CSV) hasta un modelo relacional normalizado y analítico, sin apoyarme en herramientas de BI para transformar los datos.
 
 **Habilidades que pone en práctica:**
@@ -12,16 +12,16 @@ Proyecto de práctica enfocado en **SQL puro sobre PostgreSQL**: llevar un archi
 * Análisis con CTEs, subconsultas y KPIs de negocio (dependencia económica, costo logístico por kg, varianza de precios).
 * Entorno con Docker y visualización final en Looker Studio.
 
-## 🎯 Resumen Ejecutivo
+## Resumen Ejecutivo
 Este proyecto audita la eficiencia financiera y operativa de una cadena de suministro global (2024-2026). A través de un proceso completo de ETL, modelado de datos relacional y análisis exploratorio profundo, se evaluó el desempeño logístico y el riesgo geográfico de múltiples proveedores. 
 
 El análisis desmintió la hipótesis corporativa inicial: la fragmentación de pedidos (micro-órdenes) no destruye el valor del producto base, sino que revela ventajas competitivas en precios unitarios. Sin embargo, expone hemorragias financieras graves en categorías logísticas periféricas y una dependencia geográfica crítica.
 
-> 🔗 **[Explorar el Dashboard Interactivo en Looker Studio](https://datastudio.google.com/s/pqJ-nfYmpuA)**
+> **[Explorar el Dashboard Interactivo en Looker Studio](https://datastudio.google.com/s/pqJ-nfYmpuA)**
 
 ---
 
-## 🛠️ Arquitectura de Datos y Metodología (ETL)
+## Arquitectura de Datos y Metodología (ETL)
 
 El proyecto se estructuró en tres fases de procesamiento SQL puro, transitando desde un archivo plano (CSV) hasta un modelo de datos analítico y normalizado:
 
@@ -40,7 +40,7 @@ El proyecto se estructuró en tres fases de procesamiento SQL puro, transitando 
 
 ---
 
-## 💡 Hallazgos Clave (Insights de Negocio)
+## Hallazgos Clave (Insights de Negocio)
 
 ### 1. Riesgo Estructural (Vulnerabilidad Geográfica)
 Se identificó un pivote drástico en la concentración de proveedores. Para 2026, el **70.9% del gasto global** se concentra en Pakistán, con el nodo de *Sheikhupura* acaparando el 41.53% del capital atado a un **único proveedor**.
@@ -69,7 +69,7 @@ Se ejecutó un análisis "Cara a Cara" cruzando artículos idénticos entre el l
 
 ---
 
-## 📁 Estructura del Repositorio
+## Estructura del Repositorio
 * [`data/`](data/): Archivos crudos y datasets extraídos del análisis.
 * [`sql_scripts/`](sql_scripts/):
   * `01_SCHEMA_AND_IMPORT.sql`: DDL y carga de datos.
