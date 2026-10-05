@@ -38,7 +38,7 @@ Se identificó un pivote drástico en la concentración de proveedores. Para 202
 > **Acción:** Homologar proveedores secundarios de manera expedita en Asia Central para mitigar el riesgo de paros operativos ante disrupciones geopolíticas o locales.
 
 <p align="center">
-  <img src="visuals/mapa_riesgo.png" width="800">
+  <img src="visuals/mapa_riesgo.png" width="400">
 </p>
 
 ### 2. Fuga de Capital Logístico (Ratio Costo/Kg)
@@ -46,7 +46,7 @@ Al estandarizar los fletes mediante un indicador de "Costo por Kilogramo", se de
 > **Acción:** Forzar la consolidación directa de fletes pequeños y renegociar contratos de servicios extraordinarios para sacarlos de la logística operativa directa.
 
 <p align="center">
-  <img src="visuals/ratio_costo.png" width="800">
+  <img src="visuals/ratio_costo.png" width="400">
 </p>
 
 ### 3. Competitividad: Micro-Órdenes vs. Alto Volumen
@@ -55,7 +55,7 @@ Se ejecutó un análisis "Cara a Cara" cruzando artículos idénticos entre el l
 > **Acción:** Implementar una **Optimización Híbrida**. Mantener al proveedor de micro-órdenes para componentes de alto valor estratégico, condicionando su viabilidad a que el costo de importación logística no eclipse el ahorro unitario demostrado.
 
 <p align="center">
-  <img src="visuals/varianza_precios.png" width="800">
+  <img src="visuals/varianza_precios.png" width="400">
 </p>
 
 ---
