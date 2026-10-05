@@ -8,6 +8,8 @@ Este proyecto audita la eficiencia financiera y operativa de una cadena de sumin
 
 El análisis desmintió la hipótesis corporativa inicial: la fragmentación de pedidos (micro-órdenes) no destruye el valor del producto base, sino que revela ventajas competitivas en precios unitarios. Sin embargo, expone hemorragias financieras graves en categorías logísticas periféricas y una dependencia geográfica crítica.
 
+> 🔗 **[Explorar el Dashboard Interactivo en Looker Studio](https://datastudio.google.com/s/pqJ-nfYmpuA)**
+
 ---
 
 ## 🛠️ Arquitectura de Datos y Metodología (ETL)
@@ -35,23 +37,26 @@ El proyecto se estructuró en tres fases de procesamiento SQL puro, transitando 
 Se identificó un pivote drástico en la concentración de proveedores. Para 2026, el **70.9% del gasto global** se concentra en Pakistán, con el nodo de *Sheikhupura* acaparando el 41.53% del capital atado a un **único proveedor**.
 > **Acción:** Homologar proveedores secundarios de manera expedita en Asia Central para mitigar el riesgo de paros operativos ante disrupciones geopolíticas o locales.
 
-*(Visualización: Mapa de calor de concentración financiera)*
-`![Mapa de Riesgo Geografico](ruta/a/tu/imagen/mapa.png)`
+<p align="center">
+  <img src="visuals/mapa_riesgo.png" width="800">
+</p>
 
 ### 2. Fuga de Capital Logístico (Ratio Costo/Kg)
 Al estandarizar los fletes mediante un indicador de "Costo por Kilogramo", se descubrió que las categorías periféricas o de servicios (`Account` y `L&T`) superan los **$50.00 USD/kg**. Esto representa un costo insostenible frente al promedio de materias primas principales, que se mantiene estable entre $0.50 y $10.00 USD/kg.
 > **Acción:** Forzar la consolidación directa de fletes pequeños y renegociar contratos de servicios extraordinarios para sacarlos de la logística operativa directa.
 
-*(Visualización: Gráfico de barras del Ratio de Costo Logístico)*
-`![Ratio de Costo Logistico](ruta/a/tu/imagen/ratio_costo.png)`
+<p align="center">
+  <img src="visuals/ratio_costo.png" width="800">
+</p>
 
 ### 3. Competitividad: Micro-Órdenes vs. Alto Volumen
 Se ejecutó un análisis "Cara a Cara" cruzando artículos idénticos entre el líder de micro-órdenes (*Foundary Port Sudán*) y el líder mayorista (*PakArab Steel Factory*). 
 **El Plot Twist Analítico:** La fragmentación no destruye el valor comercial base. *Foundary Port Sudán* ofreció precios más agresivos en 6 de 10 artículos compartidos, logrando ahorros unitarios de hasta **54.55%** (Ej. Item 270: $3,571.00 vs $7,857.00).
 > **Acción:** Implementar una **Optimización Híbrida**. Mantener al proveedor de micro-órdenes para componentes de alto valor estratégico, condicionando su viabilidad a que el costo de importación logística no eclipse el ahorro unitario demostrado.
 
-*(Visualización: Gráfico de Varianza de Precios - IPV)*
-`![Varianza de Precios](ruta/a/tu/imagen/varianza.png)`
+<p align="center">
+  <img src="visuals/varianza_precios.png" width="800">
+</p>
 
 ---
 
