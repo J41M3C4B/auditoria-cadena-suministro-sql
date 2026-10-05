@@ -3,6 +3,15 @@
 **Rol:** Data Analyst / Business Intelligence  
 **Stack Tecnológico:** PostgreSQL, Docker, Looker Studio, Modelado Relacional.
 
+## 🧭 Propósito del proyecto
+Proyecto de práctica enfocado en **SQL puro sobre PostgreSQL**: llevar un archivo plano (CSV) hasta un modelo relacional normalizado y analítico, sin apoyarme en herramientas de BI para transformar los datos.
+
+**Habilidades que pone en práctica:**
+* ETL completo en SQL: ingesta con `COPY`, limpieza defensiva y casteo de tipos.
+* Modelado relacional: normalización tipo copo de nieve, llaves foráneas e históricos de precios.
+* Análisis con CTEs, subconsultas y KPIs de negocio (dependencia económica, costo logístico por kg, varianza de precios).
+* Entorno con Docker y visualización final en Looker Studio.
+
 ## 🎯 Resumen Ejecutivo
 Este proyecto audita la eficiencia financiera y operativa de una cadena de suministro global (2024-2026). A través de un proceso completo de ETL, modelado de datos relacional y análisis exploratorio profundo, se evaluó el desempeño logístico y el riesgo geográfico de múltiples proveedores. 
 
